@@ -1,0 +1,22 @@
+#wheel{
+    margin: auto;
+    border: 1px solid black;
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    background-color: #111;
+    background-image: conic-gradient(red,orange,yellow,green,blue,indigo,violet);
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
